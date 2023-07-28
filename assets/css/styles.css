@@ -34,6 +34,25 @@ body {
     text-align: center;
     padding-bottom: 12px;
 }
+
+.instruct-onus .suit-imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.instruct-onus .suit-imgs .img-suit {
+    width: 47%;
+    z-index: 1;
+}
+.feedback .title {
+    margin-top: 84px;
+    line-height: 1.4;
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 14px;
+}
 strong {
     background: linear-gradient(260deg, #3d67ff 0%, #9773ff 50%, #efceff 80%),
         #fff;
@@ -48,7 +67,11 @@ strong {
     line-height: 1.75;
 }
 
-.instruct-onus img {
+.instruct-onus .circle {
+    position: absolute;
+    z-index: -1;
+}
+.instruct-onus .square {
     position: absolute;
     z-index: -1;
 }
