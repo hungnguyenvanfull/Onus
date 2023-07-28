@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+:root {
+    --color-muted: #8b949e;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    background-color: #0d1018;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Instruct */
+.instruct-onus {
+    margin-top: 184px;
+    position: relative;
+    z-index: 1;
+}
+.instruct-onus .heading {
+    font-size: 6.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 12px;
+}
+strong {
+    background: linear-gradient(260deg, #3d67ff 0%, #9773ff 50%, #efceff 80%),
+        #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.desc {
+    font-size: 28px;
+    margin-top: 32px;
+    color: var(--color-muted);
+    line-height: 1.75;
+}
+
+.instruct-onus img {
+    position: absolute;
+    z-index: -1;
+}
+.instruct-onus img:first-of-type {
+    left: -60px;
+    bottom: -460px;
+}
+.instruct-onus .light {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+.instruct-onus img:last-of-type {
+    top: 90px;
+    right: 2%;
+}
+.italic {
+    font-style: italic;
+}
+
+.strong {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #fff;
+}
+/* 500 ONUS */
+.onus-500 {
+    margin-top: 32px;
+    position: relative;
+    z-index: 1;
+}
+.onus-500 .img-onus {
+    width: 100%;
+    margin: 32px 0;
+    object-fit: contain;
+    border-radius: 16px;
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.1);
+    opacity: 0.95;
+    z-index: 1;
+}
+.onus-500 .light {
+    position: absolute;
+    right: 0;
+    top: 150px;
+    z-index: -1;
+}
+.onus-500 .body {
+    margin-top: 130px;
+    position: relative;
+}
+
+.onus-500 .body .square {
+    position: absolute;
+    right: -300px;
+    z-index: -1;
+    bottom: 25%;
+}
+.onus-500 .body .circle {
+    position: absolute;
+    top: 0;
+    left: -200px;
+    z-index: -1;
+}
+.onus-500 .title {
+    line-height: 1.4;
+    font-size: 4.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.onus-500 .body .quydinh {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 62px;
+}
+.onus-500 .body .title:last-of-type {
+    margin-top: 62px;
+    margin-bottom: 0;
+}
+.group {
+    position: relative;
+}
+.group .body {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.group .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 32px;
+    background-color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0d1018;
+    border-radius: 16px;
+    min-width: 220px;
+    margin: 32px 0;
+    text-align: center;
+    margin-right: 32px;
+}
+.group .btn:hover {
+    opacity: 0.9;
+}
+.group .light {
+    top: -550%;
+    right: 0;
+}
+.btns .btn-top,
+.btns .btn-bottom {
+    display: flex;
+    justify-content: center;
+}
