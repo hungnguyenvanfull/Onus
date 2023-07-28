@@ -221,19 +221,15 @@ strong {
 }
 .thanh-qua {
     display: flex;
-    gap: 3%;
+    justify-content: space-between;
 }
 
 .thanh-qua .thanh-qua-1 {
-    width: 30%;
+    width: 48%;
     object-fit: contain;
 }
 .thanh-qua .thanh-qua-2 {
-    width: 30%;
-    object-fit: contain;
-}
-.thanh-qua .thanh-qua-3 {
-    width: 30%;
+    width: 48%;
     object-fit: contain;
 }
 .desc a {
