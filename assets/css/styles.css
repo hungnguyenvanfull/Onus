@@ -56,10 +56,11 @@ strong {
     left: -60px;
     bottom: -460px;
 }
-.instruct-onus .light {
+.light {
     position: absolute;
     bottom: 0;
     right: 50%;
+    z-index: -1;
 }
 .instruct-onus img:last-of-type {
     top: 90px;
@@ -164,4 +165,65 @@ strong {
 .btns .btn-bottom {
     display: flex;
     justify-content: center;
+}
+
+.group ol li {
+    color: var(--color-muted);
+    font-size: 28px;
+    line-height: 1.75;
+    padding: 16px 0;
+}
+.group ol li strong {
+    display: inline-block;
+    min-width: 32px;
+}
+.imgs {
+    position: relative;
+}
+.group .imgs .circle {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+.desc.active {
+    position: relative;
+}
+.group .imgs .square {
+    position: absolute;
+    bottom: -1400px;
+    z-index: -1;
+}
+.thanh-qua {
+    display: flex;
+    gap: 3%;
+}
+
+.thanh-qua .thanh-qua-1 {
+    width: 30%;
+    object-fit: contain;
+}
+.thanh-qua .thanh-qua-2 {
+    width: 30%;
+    object-fit: contain;
+}
+.thanh-qua .thanh-qua-3 {
+    width: 30%;
+    object-fit: contain;
+}
+.desc a {
+    text-decoration: none;
+    color: #0d1018;
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    padding: 16px 32px;
+    background-color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #0d1018;
+    border-radius: 16px;
+    min-width: 220px;
+    margin: 32px 0;
+    text-align: center;
+    margin-right: 32px;
 }
