@@ -37,7 +37,7 @@ body {
 
 .instruct-onus .suit-imgs {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 12px;
 }
 .instruct-onus .suit-imgs .img-suit {
@@ -216,7 +216,7 @@ strong {
 }
 .group .imgs .square {
     position: absolute;
-    bottom: -1400px;
+    bottom: -3000px;
     z-index: -1;
 }
 .thanh-qua {
