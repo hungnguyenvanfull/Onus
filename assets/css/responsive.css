@@ -1,0 +1,39 @@
+/* PC */
+@media screen and (min-width: 992px) {
+}
+
+/* Tablet & mobile */
+@media screen and (max-width: 991px) {
+    main {
+    }
+    .instruct-onus .heading {
+        font-size: 4rem;
+    }
+    .onus-500 .body .quydinh {
+        width: calc(100% - 24px);
+    }
+    .onus-500 .body .square {
+        right: 0;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .instruct-onus .square {
+        display: none;
+    }
+    .instruct-onus .heading {
+        font-size: 5rem;
+    }
+    .btns .btn-top,
+    .btns .btn-bottom {
+        flex-direction: column;
+    }
+    .group .btn {
+        margin-right: 0;
+    }
+}
